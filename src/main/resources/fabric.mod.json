@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "julian-mod-1",
+	"version": "${version}",
+	"name": "Julian mod 1",
+	"description": "Julian's super cool first mod",
+	"authors": [
+		"Julian"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/julian-mod-1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.julian.modid.JulianMod1"
+		],
+		"fabric-datagen": [
+			"net.julian.modid.JulianMod1DataGenerator"
+		],
+		"client": [
+			"net.julian.modid.JulianMod1Client"
+		]
+	},
+	"mixins": [
+		"julian-mod-1.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
