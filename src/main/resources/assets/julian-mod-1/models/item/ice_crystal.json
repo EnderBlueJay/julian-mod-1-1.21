@@ -1,0 +1,6 @@
+{
+  "parent" : "minecraft:item/generated",
+  "textures" : {
+    "layer0": "julian-mod-1:item/ice_crystal"
+  }
+}
